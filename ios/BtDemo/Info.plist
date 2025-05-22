@@ -22,6 +22,10 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+  <string>Este aplicativo precisa usar Bluetooth para se conectar a dispositivos BLE</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+  <string>Este aplicativo precisa usar Bluetooth para se conectar a dispositivos BLE</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -40,6 +44,10 @@
 	<array>
 		<string>arm64</string>
 	</array>
+	<key>UIBackgroundModes</key>
+  <array>
+    <string>bluetooth-central</string>
+  </array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
